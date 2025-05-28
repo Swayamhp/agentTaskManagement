@@ -158,7 +158,7 @@ const AddAgents = () => {
             </label>
             <input
               id="password"
-              type="password"
+              type="string"
               name="password"
               className="w-full border border-teal-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-emerald-500 bg-white text-emerald-900"
               value={formData.password}
