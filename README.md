@@ -113,5 +113,11 @@ VITE_API_URL=http://localhost:5000 // or your local server in backend
 npm run dev
 ```
 
-### my live server link
-https://agenttaskmanagement.netlify.app
+## 🚀 Live Demo
+
+You can try out the live version of the project here:
+
+🔗 [Live Demo](https://agenttaskmanagement.netlify.app)
+
+> Note: It may take a few seconds to load because the backend is hosted on Render's free tier and may be asleep.
+
