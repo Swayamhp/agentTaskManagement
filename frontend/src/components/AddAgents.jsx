@@ -107,7 +107,7 @@ const AddAgents = () => {
                 name="countryCode"
                 value={formData.countryCode}
                 onChange={handleChange}
-                className="border border-teal-300 rounded-l-lg bg-white text-emerald-900 px-3 py-3 focus:outline-none focus:ring-2 focus:ring-emerald-500"
+                className="border border-teal-300 rounded-l-lg bg-white text-emerald-900 px-0 py-3 focus:outline-none focus:ring-2 focus:ring-emerald-500"
               >
                 <option value="+1">+1 (US)</option>
                 <option value="+44">+44 (UK)</option>
@@ -127,7 +127,7 @@ const AddAgents = () => {
                 id="number"
                 type="tel"
                 name="mobNumber"
-                className="flex-grow border border-l-0 border-teal-300 rounded-r-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-emerald-500 bg-white text-emerald-900"
+                className="flex-grow border border-l-0 border-teal-300 rounded-r-lg px-1 py-3 focus:outline-none focus:ring-2 focus:ring-emerald-500 bg-white text-emerald-900"
                 value={formData.mobNumber}
                 onChange={handleChange}
                 placeholder="Enter phone number"
