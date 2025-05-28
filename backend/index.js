@@ -11,7 +11,7 @@ connectDb();
 //set up middle ware
 app.use(cors({
   // origin: 'http://localhost:5173' // React dev server URL
-  origin: 'https://agenttaskmanagement.onrender.com' // React dev server URL
+  origin: 'https://agenttaskmanagement.netlify.app' // React dev server URL
 }));
 app.use(express.json());
 const PORT = process.env.PORT || 5000;
