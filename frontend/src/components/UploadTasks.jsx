@@ -141,8 +141,32 @@ const UploadAndDistribute = () => {
         accept=".csv, .xlsx, .xls"
         onChange={handleFile}
         className="block mb-4 text-sm text-gray-500 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:font-semibold file:bg-emerald-50 file:text-emerald-700 hover:file:bg-emerald-100"
-      />
+      />       <h2 className="text-lg font-semibold text-emerald-900 mt-4 mb-2">You can only use csv,xlsx and axls files</h2>
 
+       <h2 className="text-lg font-semibold text-emerald-900 mt-4 mb-2">The task format should look like this:</h2>
+<div className="overflow-x-auto border rounded-lg bg-gray-50 text-sm text-gray-700 shadow-sm">
+  <table className="min-w-full table-auto border-collapse">
+    <thead className="bg-emerald-100 text-emerald-900">
+      <tr>
+        <th className="px-4 py-2 border">firstName</th>
+        <th className="px-4 py-2 border">mobNumber</th>
+        <th className="px-4 py-2 border">notes</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td className="px-4 py-2 border">John</td>
+        <td className="px-4 py-2 border">+11234567890</td>
+        <td className="px-4 py-2 border">Follow-up on inquiry</td>
+      </tr>
+      <tr>
+        <td className="px-4 py-2 border">Emily</td>
+        <td className="px-4 py-2 border">+441234567890</td>
+        <td className="px-4 py-2 border">Send pricing details</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
       {/* Show table and distribute button only if data is loaded */}
       {rawData.length > 0 && (
         <>
