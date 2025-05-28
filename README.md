@@ -118,6 +118,9 @@ npm run dev
 You can try out the live version of the project here:
 
 🔗 [Live Demo](https://agenttaskmanagement.netlify.app)
+### For quick review the web app you can use this credentials
+email: adminuser@gmail.com
+password: admin@400
 
 > Note: It may take a few seconds to load because the backend is hosted on Render's free tier and may be asleep.
 
