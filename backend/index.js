@@ -2,6 +2,7 @@ import express from 'express';
 import connectDb from './database.js';
 import cors from 'cors';
 import userRoutes from './router/user.router.js';
+import adminRoutes from './router/admin.router.js'
 
 const app = express();
 
@@ -22,6 +23,10 @@ app.use('/api/test',(req,res,next)=>{
 });
 //user register
 app.use('/api',userRoutes);
+
+// admin registration
+
+app.use('/api',adminRoutes);
 
 
 
