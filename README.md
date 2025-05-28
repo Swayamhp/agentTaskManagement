@@ -58,7 +58,7 @@ Edit
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/Swayamhp/agent.git
+git clone https://github.com/Swayamhp/agentTaskManagement.git
 ```
 cd AgentTaskManagement
 ## 2. Backend Setup
