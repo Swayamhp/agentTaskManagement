@@ -18,6 +18,7 @@ useEffect(()=>{
       <Routes>
         <Route path="/login" element={<LoginPage/>}/>
         <Route path="/dashboard" element={user?.isAdmin?<AdminPage/>:<UserPage/>}/>
+        <Route path="*" element={<LoginPage/>}/>
       </Routes>
     </Router>
   );
