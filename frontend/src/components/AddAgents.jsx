@@ -64,8 +64,8 @@ const AddAgents = () => {
   };
 
   return (
-    <div className="p-4 sm:p-6">
-      <div className="bg-white border-teal-300 rounded-xl shadow-lg p-4 sm:p-6 w-full max-w-xl mx-auto">
+    <div className="">
+      <div className="bg-white border-teal-300 rounded-xl shadow-lg p-4 sm:p-6 w-full max-w-5xl mx-auto">
         <h2 className="text-2xl sm:text-3xl font-semibold text-emerald-900 mb-6">Add New Agent</h2>
 
         {success && (

@@ -14,10 +14,8 @@ const userSchema = new mongoose.Schema({
   },
   mobNumber:{
   type:String,
-  required:true,
   },
   countryCode:{
-    required:true,
       type:String,
   },
   password: {
